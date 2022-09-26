@@ -44,7 +44,7 @@ class AdminVoyagesController extends AbstractController  {
     }
     /**
      * @Route("/admin/suppr/{id}", name="admin.voyage.suppr")
-     * @param \App\Controller\admin\Visite $visite
+     * @param Visite $visite
      * @return Response
      */
     public function suppr(Visite $visite): Response {
